@@ -9,7 +9,6 @@ class Dog
     @@all = []
   end
   def self.all
-    name_array = []
     @@all.each do |dog|
       puts dog.name
     end
