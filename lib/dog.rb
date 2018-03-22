@@ -11,7 +11,7 @@ class Dog
   def self.all
     name_array = []
     @@all.each do |dog|
-      name_array << dog.name
+      puts dog.name
     end
     name_array
   end
