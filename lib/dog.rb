@@ -13,6 +13,5 @@ class Dog
     @@all.each do |dog|
       puts dog.name
     end
-    name_array
   end
 end
